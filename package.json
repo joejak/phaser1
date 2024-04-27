@@ -1,0 +1,42 @@
+{
+	"name": "phaser1",
+	"description": "Messing around with phaser and svelete",
+	"version": "0.0.1",
+	"repository": {
+        "type": "git",
+        "url": "git+https://github.com/joejak/phaser1"
+    },
+    "author": "https://github.com/joejak",
+    "license": "GPL-3.0-only",
+    "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+    "bugs": {
+        "url": "https://github.com/joejak/phaser1/issues"
+    },
+    "homepage": "https://github.com/joejak/phaser1#readme",
+    "keywords": [
+        "phaser",
+        "phaser3",
+        "svelte",
+        "vite"
+    ],
+	"scripts": {
+		"dev": "vite --config vite/config.dev.mjs",
+		"build": "vite build --config vite/config.prod.mjs"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^3.1.1",
+		"@sveltejs/adapter-static": "^3.0.1",
+		"@sveltejs/kit": "^2.5.2",
+		"@sveltejs/vite-plugin-svelte": "^3.0.2",
+		"svelte": "^4.2.12",
+		"svelte-check": "^3.6.6",
+		"terser": "^5.28.1",
+		"tslib": "^2.6.2",
+		"typescript": "^5.3.3",
+		"vite": "^5.1.4"
+	},
+	"type": "module",
+	"dependencies": {
+		"phaser": "^3.80.1"
+	}
+}
